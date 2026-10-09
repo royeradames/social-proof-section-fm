@@ -36,12 +36,12 @@ test("declares one site name in the footer, og:site_name and WebSite JSON-LD", a
   expect(jsonLd).toEqual({ "@context": "https://schema.org", "@type": "WebSite", name: "Social proof section", url: "https://social-proof-section-fm.royeradames.com" });
 });
 
-test("uses the style guide colours", async ({ page }) => {
+test("keeps the style guide palette with readable buyer labels", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveCSS("color", "rgb(81, 32, 81)");
   await expect(page.locator(".rating").first()).toHaveCSS("background-color", "rgb(247, 242, 247)");
   await expect(page.locator(".testimonial figure").first()).toHaveCSS("background-color", "rgb(81, 32, 81)");
-  await expect(page.locator(".verified").first()).toHaveCSS("color", "rgb(238, 105, 164)");
+  await expect(page.locator(".verified").first()).toHaveCSS("color", "rgb(241, 119, 173)");
 });
 
 test("follows the Figma arrangement at mobile, tablet and desktop", async ({ page }) => {
