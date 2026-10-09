@@ -16,7 +16,7 @@ test("buyer labels and introductory copy meet normal text contrast", async ({ pa
       };
       return labels.map(label => {
         const card = label.closest("figure");
-        
+
         const foreground = luminance(getComputedStyle(label).color);
         const background = luminance(getComputedStyle(card ?? document.body).backgroundColor);
         return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
