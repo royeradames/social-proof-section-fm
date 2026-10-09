@@ -4,6 +4,7 @@
   color-scheme: light;
   --magenta-dark: #512051;
   --pink: #ee69a4;
+  --buyer-pink: #f177ad;
   --magenta-gray: #927b91;
   --magenta-light: #f7f2f7;
   --footer: #6e566d;
@@ -41,7 +42,7 @@ main { width: min(100%, 23.4375rem); margin-inline: auto; padding: 5rem 1.5rem 0
 .testimonial figcaption img { flex: none; border-radius: 50%; }
 .buyer { display: flex; flex-direction: column; font-size: 1.0625rem; line-height: 1; }
 .buyer-name { font-weight: 700; }
-.verified { color: var(--pink); font-weight: 400; }
+.verified { color: var(--buyer-pink); font-weight: 400; }
 .testimonial blockquote { margin-top: 2rem; font-size: 1.0625rem; font-weight: 500; line-height: 1.3; letter-spacing: -.3px; }
 
 footer { padding: 3.5rem 1.5rem 1.5rem; color: var(--footer); font-size: 1rem; line-height: 1.5; text-align: center; text-wrap: balance; }
