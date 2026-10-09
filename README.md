@@ -18,7 +18,7 @@ Original challenge files are preserved under `reference/`; supplied images moved
 
 - Where the Figma frames and the supplied JPGs disagree, the decoded Figma wins: 327px stacks at 375 with stars above each rating label, 453px stacks with stars beside the label on tablet, and the staggered 446px ratings and 350px testimonials on desktop.
 - The desktop arrangement starts at 1160px, the narrowest width that holds the 1110px Figma container with 24px gutters; narrower screens keep the tablet stack.
-- All design text is already 16px or larger. The grey intro copy (#927b91 on white) is the official palette and is kept for fidelity, though it is below WCAG AA for its size.
-- Verified Buyer uses a slightly lighter pink (#f177ad) for normal-text contrast on the dark cards. The other supplied colours remain unchanged.
+- All design text is already 16px or larger. The intro copy uses a darker grey-magenta (#806c7f) so its normal-size text reaches WCAG AA on the paper background.
+- Verified Buyer uses a slightly lighter pink (#f177ad) for normal-text contrast on the dark cards. Footer hover and focus use a darker pink (#a82565) against the paper background.
 - Portrait alt text names the buyer; stars are decorative because each rating label already says "Rated 5 Stars".
 - One site name, "Social proof section", appears in the footer, `og:site_name` and `WebSite` JSON-LD. The canonical URL is the planned `social-proof-section-fm.royeradames.com` production domain, which isn't attached yet.

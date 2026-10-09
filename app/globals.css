@@ -5,7 +5,8 @@
   --magenta-dark: #512051;
   --pink: #ee69a4;
   --buyer-pink: #f177ad;
-  --magenta-gray: #927b91;
+  --link-pink: #a82565;
+  --magenta-gray: #806c7f;
   --magenta-light: #f7f2f7;
   --footer: #6e566d;
   --white: #ffffff;
@@ -14,7 +15,7 @@
 html { font-size: 100%; }
 body { margin: 0; background: var(--white); color: var(--magenta-dark); font-family: var(--font-league-spartan), sans-serif; }
 a { color: inherit; text-underline-offset: .2em; }
-:focus-visible { outline: 3px solid var(--pink); outline-offset: 4px; }
+:focus-visible { outline: 3px solid var(--link-pink); outline-offset: 4px; }
 h1, p, ul, figure, blockquote { margin: 0; }
 ul { padding: 0; list-style: none; }
 
@@ -47,7 +48,7 @@ main { width: min(100%, 23.4375rem); margin-inline: auto; padding: 5rem 1.5rem 0
 
 footer { padding: 3.5rem 1.5rem 1.5rem; color: var(--footer); font-size: 1rem; line-height: 1.5; text-align: center; text-wrap: balance; }
 footer a { display: inline-block; min-height: 2.75rem; padding-block: .625rem; color: var(--magenta-dark); }
-footer a:hover { color: var(--pink); }
+footer a:hover { color: var(--link-pink); }
 
 /* Tablet: centred 608px header, 453px ratings with stars beside the text, 453px testimonials (Figma Tablet frame). */
 @media (min-width: 48rem) {
